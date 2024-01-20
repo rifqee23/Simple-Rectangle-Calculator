@@ -10,6 +10,6 @@
 
 - **HTML:** Basic structure of the web page.
 - **CSS:** Styling and layout of the page.
-- **JavaScript:** Logic for calculating the perimeter and area of the square.
+- **JavaScript:** Logic for calculating the perimeter and area of the square, and a button to display the results.
 
 

@@ -1,0 +1,245 @@
+span{
+    font-size:large;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display:grid;
+    height: 100%;
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+header {
+    background-color: #7BD3EA;
+    padding: 8px 8px 4px 4px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #7BD3EA;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+    color: #000;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: grid;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.rectangle {
+    background-color: #EEEEEE;
+    margin: 0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+button:hover {
+    background-color: #FFE5E5;
+}
+
+.luas {
+    background-color: #F6F7C4;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.contents{
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #A1EEBD;
+    margin-bottom: 20px;
+
+
+}
+
+
+.namaGambar {
+    font-weight: bold;
+    font-size: large;
+}
+
+.capt-rumus{
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.rumus {
+    font-size: large;
+    font-weight: bold;
+}
+
+.persegi-ket {
+    margin-top: 100px;
+    font-size: large;
+}
+
+.keterangan {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contents .capt-rumus{
+    text-indent: 50px;
+}
+
+.contents .keterangan{
+    text-indent: 50px;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;    
+}
+
+button {
+    background-color: #F6F7C4;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reset {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+    
+}
+
+label {
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border-radius: 16px;
+    background-color: #FFE5E5;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    background-color: #F6F7C4;
+
+    }
+
+a {
+    color: #000;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contents {
+        margin-top: 10px;
+    }
+
+    .namaGambar {
+        font-size: medium;
+    }
+
+    .inputSection {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .luas {
+        padding: 20px;
+    }
+
+    .contents {
+        margin-bottom: 10px;
+    }
+
+    .persegi-ket {
+        margin-top: 50px;
+    }
+
+    .capt-rumus, .keterangan {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    button {
+        padding: 8px 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .reset {
+        margin-right: 10px;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        padding: 8px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
